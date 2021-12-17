@@ -24,8 +24,6 @@ requirements:
     - h5py
     - numba
     - numpy
-    - quaternion
-    - scipy
 test:
   imports:
     - ldrb
@@ -41,7 +39,7 @@ about:
     Laplace Dirichlet Ruled-Based algorithm from Bayer, J.D., Blake, R.C., Plank, G. and Trayanova, N.A., 2012.
     A novel rule-based algorithm for assigning myocardial fiber orientation
     to computational heart models. Annals of biomedical engineering, 40(10), pp.2243-2254
-  doc_url: https://ldrb.readthedocs.io
+  doc_url: http://finsberg.github.io/ldrb
   dev_url: https://github.com/finsberg/ldrb
 extra:
   recipe-maintainers:
