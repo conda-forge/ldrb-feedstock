@@ -1,4 +1,4 @@
-{% set version = "2021.0.2" %}
+{% set version = "2022.0.0" %}
 
 package:
   name: ldrb
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/finsberg/ldrb/archive/v{{ version }}.tar.gz
-  sha256: 04cb55a83bafa149d86112b05443f4a6a7be4126642f043f01ba09718aaa743e
+  sha256: 5100b175824244d423f78d8137a1fc746249b8760da3d4482ae7cd0908c47a80
 
 build:
   number: 0
@@ -24,8 +24,6 @@ requirements:
     - h5py
     - numba
     - numpy
-    - quaternion
-    - scipy
 test:
   imports:
     - ldrb
@@ -41,7 +39,7 @@ about:
     Laplace Dirichlet Ruled-Based algorithm from Bayer, J.D., Blake, R.C., Plank, G. and Trayanova, N.A., 2012.
     A novel rule-based algorithm for assigning myocardial fiber orientation
     to computational heart models. Annals of biomedical engineering, 40(10), pp.2243-2254
-  doc_url: https://ldrb.readthedocs.io
+  doc_url: http://finsberg.github.io/ldrb
   dev_url: https://github.com/finsberg/ldrb
 extra:
   recipe-maintainers:
