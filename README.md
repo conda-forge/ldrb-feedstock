@@ -11,7 +11,7 @@ Summary: Laplace-Dirichlet Rule-based algorithm for assigning myocardial fiber o
 
 Development: https://github.com/finsberg/ldrb
 
-Documentation: https://ldrb.readthedocs.io
+Documentation: http://finsberg.github.io/ldrb
 
 A software for assigning myocardial fiber orientations based on the
 Laplace Dirichlet Ruled-Based algorithm from Bayer, J.D., Blake, R.C., Plank, G. and Trayanova, N.A., 2012.
