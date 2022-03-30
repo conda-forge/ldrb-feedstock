@@ -21,6 +21,7 @@ requirements:
     - python >=3.6
     - fenics
     - mshr
+    - scipy
     - h5py
     - numba
     - numpy
