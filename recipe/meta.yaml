@@ -1,4 +1,4 @@
-{% set version = "2023.0.0" %}
+{% set version = "2023.1.0" %}
 
 package:
   name: ldrb
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/finsberg/ldrb/archive/v{{ version }}.tar.gz
-  sha256: 11e59b73a9cfe93eb10ede92e13658b3c80687c2425b555e8f87449c705d315d
+  sha256: 8a9c9a87b4ad3083ec031f242e323b5bfa498cc4eef351dae0d1395ff791b881
 
 build:
   number: 0
