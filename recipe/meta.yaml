@@ -1,4 +1,4 @@
-{% set version = "2023.1.1" %}
+{% set version = "2023.2.0" %}
 
 package:
   name: ldrb
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/finsberg/ldrb/archive/v{{ version }}.tar.gz
-  sha256: 4ca70f2fcbdd0c967faae93e617e2cb3b59131b43e7c744c5d70e5fe3b24e161
+  sha256: 8604e2d86e2b865be4e9b442971814daf0e04186d5d35f8797f5989d6315ada9
 
 build:
   number: 0
@@ -20,10 +20,11 @@ requirements:
   run:
     - python >=3.6
     - fenics
-    - quaternion
     - h5py
     - numba
     - numpy
+    - scipy >0.16
+    
 test:
   imports:
     - ldrb
