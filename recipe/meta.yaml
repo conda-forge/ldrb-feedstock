@@ -20,10 +20,11 @@ requirements:
   run:
     - python >=3.6
     - fenics
-    - quaternion
     - h5py
     - numba
     - numpy
+    - scipy >0.16
+    
 test:
   imports:
     - ldrb
