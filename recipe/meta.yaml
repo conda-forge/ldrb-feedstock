@@ -9,7 +9,7 @@ source:
   sha256: bba68dcaa23d8d33939d6ea795028e524a17d3df70dd1750c116adb0aa74de91
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -17,6 +17,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
     - fenics
